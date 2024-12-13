@@ -20,23 +20,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6c8af29-f71f-45a8-8f67-f41242bfc32c" name="更改" comment="test">
-      <change afterPath="$PROJECT_DIR$/App/UserInc/crc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/UserSnc/crc.c" afterDir="false" />
+    <list default="true" id="d6c8af29-f71f-45a8-8f67-f41242bfc32c" name="更改" comment="add supercap referee">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/UserInc/refree.h" beforeDir="false" afterPath="$PROJECT_DIR$/App/UserInc/refree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/UserInc/supercap.h" beforeDir="false" afterPath="$PROJECT_DIR$/App/UserInc/supercap.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/UserSnc/refree.c" beforeDir="false" afterPath="$PROJECT_DIR$/App/UserSnc/refree.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-f7cc6b5f0fb2aeb5ef87.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-12-13T11-18-10-0855.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-steer_chassis.elf-Debug-f1b65f06cacaa5ac20af.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/App/UserSnc/refree.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/App/UserSnc/refree.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/Core/Src/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.elf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.hex" afterDir="false" />
@@ -83,26 +75,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "test",
-    "last_opened_file_path": "E:/code/steer_chassis/config/cmsis.cfg",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "structure.view.defaults.are.configured": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;test&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/code/steer_chassis/config/cmsis.cfg&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\code\steer_chassis\App\UserSnc" />
@@ -165,7 +157,7 @@
       <workItem from="1733988726005" duration="1781000" />
       <workItem from="1734003639056" duration="3986000" />
       <workItem from="1734009233148" duration="3914000" />
-      <workItem from="1734088446624" duration="3539000" />
+      <workItem from="1734088446624" duration="7991000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -183,7 +175,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734089821342</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test">
+      <option name="closed" value="true" />
+      <created>1734092031803</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734092031803</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add supercap referee">
+      <option name="closed" value="true" />
+      <created>1734092078088</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734092078088</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,14 +208,15 @@
       <path value="$PROJECT_DIR$/../../" />
     </ignored-roots>
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="add supercap referee" />
+    <option name="LAST_COMMIT_MESSAGE" value="add supercap referee" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Core/Src/main.c</url>
-          <line>215</line>
+          <line>221</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

@@ -32,6 +32,8 @@
 #include "chassis.h"
 #include "string.h"
 #include "stdlib.h"
+#include "supercap.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -69,7 +71,7 @@ extern  RC_Ctrl RC_CtrlData;
 extern uint16_t con_pitch;
 extern  Run_Data run;
 extern int16_t send2C;
-
+extern power_heat_data_t power_heat_data;
 
 
 
@@ -127,13 +129,17 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
       RC_Robot_Ctrl(&run);
+
       con_pitch=msp(RC_CtrlData.rc.ch1-1024, 0, 670,126,129);//
       send_msg( send2C,con_pitch,RC_CtrlData.rc.s1,RC_CtrlData.rc.s2);
       send( send2C,con_pitch,RC_CtrlData.rc.s1,RC_CtrlData.rc.s2);
+      send2supercap(power_heat_data.chassis_power,power_heat_data.chassis_power,
+           power_heat_data.chassis_power,power_heat_data.chassis_power);
       HAL_Delay(1);
   }
   /* USER CODE END 3 */
 }
+
 
 /**
   * @brief System Clock Configuration

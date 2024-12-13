@@ -43,7 +43,6 @@
 #define ID_custom_client_data 0x0306        // 自定义控制器与选手端交互数据
 #define ID_map_data 0x0307                  // 选手端小地图接收哨兵数据
 #define ID_custom_info 0x0308               // 选手端小地图接收机器人数据
-
 // 命令码数据段长,根据官方协议来定义长度
 typedef enum
 {
@@ -175,7 +174,7 @@ typedef struct
 {
     uint16_t chassis_voltage;
     uint16_t chassis_current;
-    float chassis_power;
+    float    chassis_power;
     uint16_t buffer_energy;
     uint16_t shooter_17mm_1_barrel_heat;
     uint16_t shooter_17mm_2_barrel_heat;
