@@ -5,12 +5,12 @@
 #include "mycan.h"
 #include "chassis.h"
 #include "pid.h"
-
+#include "supercap.h"
 #include "math.h"
 #include "string.h"
 motor_t  motor_chassis_6020_info[4];
 motor_t  motor_chassis_3508_info[4];
-
+supercap_recv_t supercap_recv;
 
 void my_can1_init (void)
 {
@@ -19,11 +19,11 @@ void my_can1_init (void)
     can_filter.FilterActivation=  CAN_FILTER_ENABLE;
     can_filter.FilterBank=            i;
     can_filter.FilterFIFOAssignment=CAN_FILTER_FIFO0;
-    can_filter.FilterIdHigh=          0x201<<5;
-    can_filter.FilterIdLow=           0x202<<5;
-    can_filter.FilterMaskIdHigh=       0x203<<5;
-    can_filter.FilterMaskIdLow=        0x204<<5;
-    can_filter.FilterMode=       CAN_FILTERMODE_IDLIST;
+    can_filter.FilterIdHigh=        0;
+    can_filter.FilterIdLow=         0;
+    can_filter.FilterMaskIdLow=     0;
+    can_filter.FilterMaskIdHigh =   0 ;
+    can_filter.FilterMode=       CAN_FILTERMODE_IDMASK;
     can_filter.FilterScale=      CAN_FILTERSCALE_16BIT;
     can_filter.SlaveStartFilterBank=  14;
     HAL_CAN_ConfigFilter(&hcan1,&can_filter);
@@ -179,6 +179,13 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
             motor_chassis_3508_info[index].torque_current = ((rx_data[4] << 8) | rx_data[5]);
             motor_chassis_3508_info[index].temp           =   rx_data[6];
 
+            break;
+        }
+        case 0x101:
+        {
+            supercap_recv.current_energy        = ((rx_data[0] << 8) | rx_data[1]);
+            supercap_recv.current_input_power   = ((rx_data[2] << 8) | rx_data[3]);
+            supercap_recv.current_chassis_power = ((rx_data[4] << 8) | rx_data[5]);
             break;
         }
     }

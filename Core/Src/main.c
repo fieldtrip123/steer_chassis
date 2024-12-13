@@ -127,8 +127,7 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
       RC_Robot_Ctrl(&run);
-
-      con_pitch=msp(RC_CtrlData.rc.ch1-1024, 0, 670,0,360);//
+      con_pitch=msp(RC_CtrlData.rc.ch1-1024, 0, 670,126,129);//
       send_msg( send2C,con_pitch,RC_CtrlData.rc.s1,RC_CtrlData.rc.s2);
       send( send2C,con_pitch,RC_CtrlData.rc.s1,RC_CtrlData.rc.s2);
       HAL_Delay(1);

@@ -20,7 +20,32 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6c8af29-f71f-45a8-8f67-f41242bfc32c" name="更改" comment="test" />
+    <list default="true" id="d6c8af29-f71f-45a8-8f67-f41242bfc32c" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/App/UserInc/supercap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/UserSnc/supercap.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/UserSnc/mycan.c" beforeDir="false" afterPath="$PROJECT_DIR$/App/UserSnc/mycan.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists_template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-992f4236a6c326b63488.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-12-12T00-45-24-0806.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-steer_chassis.elf-Debug-e19e9126e24d27d6dbc2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/App/UserSnc/mycan.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/App/UserSnc/mycan.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/steer_chassis/CMakeLists_template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/steer_chassis/CMakeLists_template.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,11 +56,19 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="ccd58588-f675-4cc6-85a2-9cffacde9064" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -45,9 +78,9 @@
     <option name="majorVersion" value="2023" />
     <option name="minorVersion" value="2.2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2phjLLXPPivw7Sk2qBrQHwiWU78" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -62,12 +95,13 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/code/steer_chassis",
+    "git-widget-placeholder": "test",
+    "last_opened_file_path": "E:/code/steer_chassis/config/cmsis.cfg",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "structure.view.defaults.are.configured": "true",
     "vue.rearranger.settings.migration": "true"
@@ -75,15 +109,34 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\steer_chassis\App\UserSnc" />
       <recent name="E:\code\steer_chassis\App\UserInc" />
+      <recent name="E:\code\steer_chassis\Core\Inc" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake 应用程序.steer_chassis.elf">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="steer_chassis.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="steer_chassis" TARGET_NAME="steer_chassis.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="steer_chassis" RUN_TARGET_NAME="steer_chassis.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="steer_chassis.elf" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="steer_chassis" TARGET_NAME="steer_chassis.elf" CONFIG_NAME="Debug" version="1" RUN_PATH="$PROJECT_DIR$/cmake-build-debug/steer_chassis.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="E:\code\steer_chassis\config\cmsis.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB">E:\code\steer_chassis\config\cmsis.cfg</debugger>
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.steer_chassis.elf" />
+      <item itemvalue="OpenOCD 下载并运行.steer_chassis.elf" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -114,7 +167,9 @@
       <workItem from="1733913186766" duration="10602000" />
       <workItem from="1733963805187" duration="7324000" />
       <workItem from="1733988726005" duration="1781000" />
-      <workItem from="1734003639056" duration="1143000" />
+      <workItem from="1734003639056" duration="3986000" />
+      <workItem from="1734009233148" duration="3914000" />
+      <workItem from="1734088446624" duration="1330000" />
     </task>
     <servers />
   </component>
@@ -139,7 +194,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Core/Src/main.c</url>
-          <line>217</line>
+          <line>216</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
