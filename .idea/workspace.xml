@@ -20,23 +20,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6c8af29-f71f-45a8-8f67-f41242bfc32c" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/App/UserInc/supercap.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/UserSnc/supercap.c" afterDir="false" />
+    <list default="true" id="d6c8af29-f71f-45a8-8f67-f41242bfc32c" name="更改" comment="test">
+      <change afterPath="$PROJECT_DIR$/App/UserInc/crc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/UserSnc/crc.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/UserSnc/mycan.c" beforeDir="false" afterPath="$PROJECT_DIR$/App/UserSnc/mycan.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists_template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/UserInc/refree.h" beforeDir="false" afterPath="$PROJECT_DIR$/App/UserInc/refree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/UserInc/supercap.h" beforeDir="false" afterPath="$PROJECT_DIR$/App/UserInc/supercap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/UserSnc/refree.c" beforeDir="false" afterPath="$PROJECT_DIR$/App/UserSnc/refree.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-992f4236a6c326b63488.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-12-12T00-45-24-0806.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-steer_chassis.elf-Debug-e19e9126e24d27d6dbc2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-f7cc6b5f0fb2aeb5ef87.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-12-13T11-18-10-0855.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-steer_chassis.elf-Debug-f1b65f06cacaa5ac20af.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/App/UserSnc/mycan.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/App/UserSnc/mycan.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/App/UserSnc/refree.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/App/UserSnc/refree.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/Core/Src/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
@@ -44,7 +41,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.elf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/steer_chassis/CMakeLists_template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/steer_chassis/CMakeLists_template.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,8 +165,25 @@
       <workItem from="1733988726005" duration="1781000" />
       <workItem from="1734003639056" duration="3986000" />
       <workItem from="1734009233148" duration="3914000" />
-      <workItem from="1734088446624" duration="1330000" />
+      <workItem from="1734088446624" duration="3539000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <option name="closed" value="true" />
+      <created>1734089804904</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734089804904</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <option name="closed" value="true" />
+      <created>1734089821342</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734089821342</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +207,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Core/Src/main.c</url>
-          <line>216</line>
+          <line>215</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

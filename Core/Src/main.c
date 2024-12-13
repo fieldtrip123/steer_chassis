@@ -115,7 +115,7 @@ int main(void)
     my_can2_init();
     all_pid_init();
     RC_Init();
-   REFREE_Init();
+   referee_init();
 
   /* USER CODE END 2 */
 
@@ -190,9 +190,8 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
        __HAL_DMA_DISABLE_IT(huart1.hdmarx, DMA_IT_HT);
    }
     if( huart==&huart2) {
-        HAL_UARTEx_ReceiveToIdle_DMA(&huart2, UART_REFREE, 256);
-        __HAL_DMA_DISABLE_IT(huart2.hdmarx, DMA_IT_HT);
-        unPackDataFromRF(UART_REFREE, 256);
+
+        RefereeCallback();
     }
 }
 
