@@ -11,7 +11,7 @@
 motor_t  motor_chassis_6020_info[4];
 motor_t  motor_chassis_3508_info[4];
 supercap_recv_t supercap_recv;
-
+uint16_t recv[4];
 void my_can1_init (void)
 {
     CAN_FilterTypeDef  can_filter;
@@ -183,9 +183,11 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
         }
         case 0x101:
         {
-            supercap_recv.current_energy        = ((rx_data[0] << 8) | rx_data[1]);
-            supercap_recv.current_input_power   = ((rx_data[2] << 8) | rx_data[3]);
-            supercap_recv.current_chassis_power = ((rx_data[4] << 8) | rx_data[5]);
+            memcpy(recv,rx_data,8);
+
+            //supercap_recv.current_energy        = ((rx_data[0] << 8) | rx_data[1]);
+           // supercap_recv.current_input_power   = ((rx_data[2] << 8) | rx_data[3]);
+           // supercap_recv.current_chassis_power = ((rx_data[4] << 8) | rx_data[5]);
             break;
         }
     }

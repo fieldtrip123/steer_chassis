@@ -28,7 +28,7 @@ void move_steer_chassis(int16_t vx,int16_t vy,int16_t vw)
 }
 
 
-int16_t send2C;
+
 int16_t con_pitch;
 
 
@@ -53,6 +53,6 @@ void move_chassis_steer(int16_t vx,int16_t vy,int16_t vw)
 
     //这里都是角度制
     set_chassis_6020_angle(wheel_theta[0],wheel_theta[1],wheel_theta[2],wheel_theta[3]);
-    send2C= abs(wheel_theta[0]);
+
 }
 

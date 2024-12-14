@@ -22,11 +22,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d6c8af29-f71f-45a8-8f67-f41242bfc32c" name="更改" comment="add supercap referee">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/UserInc/refree.h" beforeDir="false" afterPath="$PROJECT_DIR$/App/UserInc/refree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/UserSnc/mec.c" beforeDir="false" afterPath="$PROJECT_DIR$/App/UserSnc/mec.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/UserSnc/mycan.c" beforeDir="false" afterPath="$PROJECT_DIR$/App/UserSnc/mycan.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/App/UserSnc/refree.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/App/UserSnc/refree.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/App/UserSnc/mec.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/App/UserSnc/mec.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/App/UserSnc/mycan.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/App/UserSnc/mycan.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/steer_chassis.elf.dir/Core/Src/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/steer_chassis.bin" afterDir="false" />
@@ -103,9 +105,9 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake 应用程序.steer_chassis.elf">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="steer_chassis.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="steer_chassis" TARGET_NAME="steer_chassis.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="steer_chassis" RUN_TARGET_NAME="steer_chassis.elf">
@@ -157,7 +159,8 @@
       <workItem from="1733988726005" duration="1781000" />
       <workItem from="1734003639056" duration="3986000" />
       <workItem from="1734009233148" duration="3914000" />
-      <workItem from="1734088446624" duration="7991000" />
+      <workItem from="1734088446624" duration="10237000" />
+      <workItem from="1734141294323" duration="7938000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -191,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734092078088</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add supercap referee">
+      <option name="closed" value="true" />
+      <created>1734102032379</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734102032379</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +227,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Core/Src/main.c</url>
-          <line>221</line>
+          <line>222</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

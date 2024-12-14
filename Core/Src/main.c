@@ -70,7 +70,7 @@ uint8_t UART_REFREE[256];
 extern  RC_Ctrl RC_CtrlData;
 extern uint16_t con_pitch;
 extern  Run_Data run;
-extern int16_t send2C;
+ int16_t send2C;
 extern power_heat_data_t power_heat_data;
 
 
@@ -130,7 +130,8 @@ int main(void)
     /* USER CODE BEGIN 3 */
       RC_Robot_Ctrl(&run);
 
-      con_pitch=msp(RC_CtrlData.rc.ch1-1024, 0, 670,126,129);//
+      con_pitch=msp(RC_CtrlData.rc.ch1-1024, 0, 650,126,205);//
+      send2C=msp(RC_CtrlData.rc.ch0-1024, -670, 670,0,360);
       send_msg( send2C,con_pitch,RC_CtrlData.rc.s1,RC_CtrlData.rc.s2);
       send( send2C,con_pitch,RC_CtrlData.rc.s1,RC_CtrlData.rc.s2);
       send2supercap(power_heat_data.chassis_power,power_heat_data.chassis_power,
